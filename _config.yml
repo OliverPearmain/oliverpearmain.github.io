@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+pygments:         true
 
 # Permalinks
 permalink:        pretty
@@ -8,13 +8,18 @@ permalink:        pretty
 # Setup
 title:            OliverPearmain.com
 tagline:          Freelance iOS Developer
-url:              http://oliverpearmain.com
+url:              http://www.oliverpearmain.com
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 baseurl:          /
+
 author:
   name:           Oliver Pearmain
-  url:            http://oliverpearmain.com
+  url:            http://www.oliverpearmain.com
+
+paginate:         5
 
 # Custom vars
-version:          1.0.0
+version:          2.1.0
+
 github:
   repo:           https://github.com/OliverPearmain/oliverpearmain.github.io
