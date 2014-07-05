@@ -90,7 +90,7 @@ html {
 .sidebar-nav-item {
   display: block;
 }
-.sidebar-nav-item .subitem {
+.sidebar-nav-item.subitem {
   padding-left: 10rem;
   background-color: #999999;
 }
