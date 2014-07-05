@@ -2,7 +2,7 @@
 layout: page
 title: In-App Wifi Toggle
 ---
-<img style="float: right" src="in-app-wifi-toggle-logo.jpg" />
+<img style="float: right" src="/images/in-app-wifi-toggle/icon.png" />
 
 ###Summary
 
@@ -60,18 +60,18 @@ The following handsets ARE known to work:
 - Nexus One
 - Samsung Moment
 
-Images of Application in Use
-Application In Use
-Application In Use
-Changelog
+###Images of Application in Use
 
-v1.2 Bug fixes
+![In-App Wifi Toggle Screenshot 1](/images/in-app-wifi-toggle/icon.png)
+![In-App Bluetooth Toggle Screenshot 2](/images/in-app-bluetooth-toggle/icon.png)
 
-v1.1 Added short press of “call/green” hard key
+###Changelog
 
-v1.0 Initial release
+**v1.2** Bug fixes  
+**v1.1** Added short press of “call/green” hard key  
+**v1.0** Initial release  
 
 ###Other Android Applications
 
-- In-App Bluetooth Toggle
-- In-App Donate
+- [In-App Bluetooth Toggle](/android/in-app-bluetooth-toggle/)
+- [In-App Donate](/android/in-app-donate/)
