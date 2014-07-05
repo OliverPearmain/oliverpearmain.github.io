@@ -90,6 +90,10 @@ html {
 .sidebar-nav-item {
   display: block;
 }
+.sidebar-nav-item .subitem {
+  padding-left: 10rem;
+  background-color: #999999;
+}
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;

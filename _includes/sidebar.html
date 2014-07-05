@@ -19,19 +19,13 @@
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" and node.parent == null %}
-			  <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-			  {% for subnode in pages_list %}
-				{% if subnode.title != null %}
-				  {% if subnode.layout == "page" %}
-					{% if subnode.parent == node.title %}
-					  &nbsp;&nbsp;&nbsp;&nbsp;<a class="sidebar-nav-item{% if page.url == subnode.url %} active{% endif %}" href="{{ subnode.url }}">{{ subnode.title }}</a>
-					{% endif %}
-				  {% endif %}
-				{% endif %}
-			  {% endfor %}
-          {% endif %}
+        {% if node.title != null and if node.layout == "page" and node.parent == null %}
+		  <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+		  {% for subnode in pages_list %}
+			{% if subnode.title != null and if subnode.layout == "page" and if subnode.parent == node.title %}
+			  <a class="sidebar-nav-item{% if page.url == subnode.url %} active{% endif %} subitem" href="{{ subnode.url }}">{{ subnode.title }}</a>
+			{% endif %}
+		  {% endfor %}
         {% endif %}
       {% endfor %}
 
