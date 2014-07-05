@@ -27,7 +27,7 @@
 				{% if subnode.title != null %}
 				  {% if subnode.layout == "page" %}
 					{% if subnode.parent == node.title %}
-					  <a class="sidebar-nav-item{% if page.url == subnode.url %} active{% endif %}" href="{{ subnode.url }}">%nbsp;%nbsp;%nbsp;%nbsp;{{ subnode.title }}</a>
+					  <a class="sidebar-nav-item{% if page.url == subnode.url %} active{% endif %}" href="{{ subnode.url }}">&nbsp;&nbsp;&nbsp;&nbsp;{{ subnode.title }}</a>
 					{% endif %}
 				  {% endif %}
 				{% endif %}
