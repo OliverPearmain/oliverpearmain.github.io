@@ -8,8 +8,8 @@ title: In-App Donate
 
 This paid app gives users of my free application’s...
 
-- [In-App Wifi Toggle](in-app-wifi-toggle) & 
-- [In-App Bluetooth Toggle](in-app-bluetooth-toggle)
+- [In-App Wifi Toggle](/android/in-app-wifi-toggle/) & 
+- [In-App Bluetooth Toggle](/android/in-app-bluetooth-toggle/)
 
 ... the chance to say thanks & make a donation.
 
