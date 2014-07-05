@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-hidden-from-sidebar
 title: In-App Bluetooth Toggle
 ---
 <img style="float: right" src="/images/in-app-bluetooth-toggle/icon.png" />
