@@ -2,10 +2,7 @@
 layout: page
 title: In-App Wifi Toggle
 ---
-
-#In-App Wifi Toggle
-
-In-App Wifi Toggle Logo
+<img style="float: right" src="in-app-wifi-toggle-logo.jpg" />
 
 ###Summary
 
