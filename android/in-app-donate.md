@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page-hidden-from-sidebar
 title: In-App Donate
 ---
 <img style="float: right" src="/images/in-app-donate/icon.png" />

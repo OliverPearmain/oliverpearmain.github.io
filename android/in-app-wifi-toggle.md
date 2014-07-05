@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-hidden-from-sidebar
 title: In-App Wifi Toggle
 ---
 <img style="float: right" src="/images/in-app-wifi-toggle/icon.png" />
