@@ -1,5 +1,4 @@
 ---
-layout: page
 title: In-App Donate
 ---
 <img style="float: right" src="/images/in-app-donate/icon.png" />
