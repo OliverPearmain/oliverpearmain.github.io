@@ -1,6 +1,9 @@
 ---
 layout: page
 title: About
+
+redirect_from:
+  - /contact/
 ---
 
 <p class="message">

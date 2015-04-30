@@ -1,15 +1,15 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        /:year-:month-:day-:title/
 
 # Setup
 title:            OliverPearmain.com
 tagline:          Freelance iOS Developer
 url:              http://www.oliverpearmain.com
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Freelance Developer'
 baseurl:          /
 
 author:
@@ -18,8 +18,20 @@ author:
 
 paginate:         5
 
+
 # Custom vars
 version:          2.1.0
 
 github:
   repo:           https://github.com/OliverPearmain/oliverpearmain.github.io
+
+
+
+
+
+
+# The below is required in order to support redirects (see the following URLs for details):
+#   https://help.github.com/articles/redirects-on-github-pages/
+#   https://help.github.com/articles/using-jekyll-plugins-with-github-pages/
+gems:
+- jekyll-redirect-from

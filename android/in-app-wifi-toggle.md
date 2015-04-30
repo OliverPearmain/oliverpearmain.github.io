@@ -1,5 +1,6 @@
 ---
-layout: page-hidden-from-sidebar
+layout: page
+parent: Android
 title: In-App Wifi Toggle
 ---
 <img style="float: right" src="/images/in-app-wifi-toggle/icon.png" />
@@ -62,8 +63,8 @@ The following handsets ARE known to work:
 
 ###Images of Application in Use
 
-![In-App Wifi Toggle Screenshot 1](/images/in-app-wifi-toggle/icon.png)
-![In-App Bluetooth Toggle Screenshot 2](/images/in-app-bluetooth-toggle/icon.png)
+![In-App Wifi Toggle Screenshot 1](/images/in-app-wifi-toggle/screenshot-1.png){: style="display: inline-block; width: 300px; margin-right: 20px;" }
+![In-App Bluetooth Toggle Screenshot 2](/images/in-app-wifi-toggle/screenshot-2.png){: style="display: inline-block; width: 300px;" }
 
 ###Changelog
 

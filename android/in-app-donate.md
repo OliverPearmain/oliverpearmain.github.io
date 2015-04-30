@@ -1,5 +1,6 @@
 ---
-layout: page-hidden-from-sidebar
+layout: page
+parent: Android
 title: In-App Donate
 ---
 <img style="float: right" src="/images/in-app-donate/icon.png" />
